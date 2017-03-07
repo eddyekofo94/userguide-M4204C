@@ -74,9 +74,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.
-                            <br>Created by Start Bootstrap.</p>
+                        <h1 class="brand-heading">FootBall Manager UserGuide</h1>
+                        <p class="intro-text">A fun and exciting game for football fans.
+                            <br>Created by ITT Computing 2nd years.</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -90,57 +90,119 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+                <h2>About Football Manager</h2>
+                <p>Football is the most popular game in the world, with a large market in pc gaming. Our aim was to engage the large football player base from around the world. And we tried to make this game interesting and exciting for all fans of football.</p>
+                <p>Once in, you take charge of your own team, buy and sell players, train your players to improve in the areas you wish to focus on, play matches and ultimately win the league.</p>
+                <p>Football Manager is the most action-packed football manager game of them all, with 1 league match and 3 training sessions per week. Express your management prowess and become the best. </p>
+				<p>From the above description the audience for this football simulator is intended for all genders and ages</p>
             </div>
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
+    <!-- home Section -->
+    <section id="home" class="content-section text-center">
+        <div class="home-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
-                </div>
+                    <h2>Home Page</h2>
+					<img src="img/homePage.png" alt="homePage" style="width:716px;height:455;">
+                    <p>The links on the sidebar will be restricted to Home page link when there is no user logged in then there will a special navigation bar based on whether the user logged in is a manager of a team or an admin the above navigation bar is for an admin user. The manager navigation bar will contain a League Table link, Fixtures link, Squad link and a Transfer market link.</p>
+                    <p>The home page will have a Login and a Register link based on whether there is a user logged in or not.</p><p>We then expanded on this with a basic economy and the ability to buy and sell players and give managers the ability to submit teams to create an automated system environment as part of the automation the league table updates after a match is played to give up to date</p>
+					</div>
             </div>
         </div>
     </section>
 
+	
+	
+	    <!-- login Section -->
+    <section id="login" class="content-section text-center">
+        <div class="login-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Login Page</h2>
+					<img src="img/login.png" alt="homePage" style="width:716px;height:455;">
+                    <p>A user will input there unique login name and password here. The system will then encrypt the password with sha-256 encryption algorithm and our own personal salt value then it tests both the login name and encrypted password against those stored in the database.</p>
+					</div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- register Section -->
+    <section id="register" class="content-section text-center">
+        <div class="register-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Register Page</h2>
+					<img src="img/register.png" alt="homePage" style="width:716px;height:455;">
+                    <p>On this page a new user will enter their name, unique login name and password. From here the system encrypts the password using a sha-256 encryption and add our salt value to the password before encryption.</p>
+					</div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- fixture Section -->
+    <section id="fixture" class="content-section text-center">
+        <div class="fixture-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Fixture Page</h2>
+					<img src="img/fixture.png" alt="homePage" style="width:716px;height:455;">
+                    <p>On this page a manager or admin user can view there fixtures for the season. They can see the games played as they are displayed in a light blue colour and the results of the matches are shown also.</p>
+					</div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- squad Section -->
+    <section id="squad" class="content-section text-center">
+        <div class="squad-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Squad Page</h2>
+					<img src="img/squad.png" alt="homePage" style="width:716px;height:455;">
+                    <p>Here a manager views there team and selects which positon to play a player. Which player to train or sell. A manager can also change their teams name from here.</p>
+					</div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- league Section -->
+    <section id="league" class="content-section text-center">
+        <div class="league-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>League Page</h2>
+					<img src="img/league.png" alt="homePage" style="width:716px;height:455;">
+                    <p>On this page a user whether it be an admin or manager can view where they stand in the league or other team’s position. This league table updates automatically after each match is played and an admin can force an update if needed.</p>
+					</div>
+            </div>
+        </div>
+    </section>
+	
+	
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
+                <h2>Contact Us</h2>
+           
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Eddy Ekofo</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="#" class="btn btn-default btn-lg">  <span class="network-name">Helena Hoang</span></a>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <!-- Map Section -->
-    <div id="map"></div>
-
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p>Copyright &copy; FootBall Manager 2017</p>
         </div>
     </footer>
 
@@ -152,10 +214,7 @@
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
+	
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
 
