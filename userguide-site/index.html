@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Football Manager</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
+                    </i> <span class="light">FootBall</span> Manager
                 </a>
             </div>
 
@@ -56,10 +56,25 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#home">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#login">Login</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#register">Register</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#fixture">Fixture</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#squad">Squad</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#league">League </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -91,10 +106,14 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Football Manager</h2>
-                <p>Football is the most popular game in the world, with a large market in pc gaming. Our aim was to engage the large football player base from around the world. And we tried to make this game interesting and exciting for all fans of football.</p>
-                <p>Once in, you take charge of your own team, buy and sell players, train your players to improve in the areas you wish to focus on, play matches and ultimately win the league.</p>
-                <p>Football Manager is the most action-packed football manager game of them all, with 1 league match and 3 training sessions per week. Express your management prowess and become the best. </p>
-				<p>From the above description the audience for this football simulator is intended for all genders and ages</p>
+                <p>Football is the most popular game in the world, with a large market in pc gaming. Our aim was to engage the
+                    large football player base from around the world. And we tried to make this game interesting and exciting
+                    for all fans of football.</p>
+                <p>Once in, you take charge of your own team, buy and sell players, train your players to improve in the areas
+                    you wish to focus on, play matches and ultimately win the league.</p>
+                <p>Football Manager is the most action-packed football manager game of them all, with 1 league match and 3 training
+                    sessions per week. Express your management prowess and become the best. </p>
+                <p>From the above description the audience for this football simulator is intended for all genders and ages</p>
             </div>
         </div>
     </section>
@@ -105,94 +124,109 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Home Page</h2>
-					<img src="img/homePage.png" alt="homePage" style="width:716px;height:455;">
-                    <p>The links on the sidebar will be restricted to Home page link when there is no user logged in then there will a special navigation bar based on whether the user logged in is a manager of a team or an admin the above navigation bar is for an admin user. The manager navigation bar will contain a League Table link, Fixtures link, Squad link and a Transfer market link.</p>
-                    <p>The home page will have a Login and a Register link based on whether there is a user logged in or not.</p><p>We then expanded on this with a basic economy and the ability to buy and sell players and give managers the ability to submit teams to create an automated system environment as part of the automation the league table updates after a match is played to give up to date</p>
-					</div>
+                    <img src="img/homePage.png" alt="homePage" style="width:716px;height:455;">
+                    <p>The links on the sidebar will be restricted to Home page link when there is no user logged in then there
+                        will a special navigation bar based on whether the user logged in is a manager of a team or an admin
+                        the above navigation bar is for an admin user. The manager navigation bar will contain a League Table
+                        link, Fixtures link, Squad link and a Transfer market link.</p>
+                    <p>The home page will have a Login and a Register link based on whether there is a user logged in or not.</p>
+                    <p>We then expanded on this with a basic economy and the ability to buy and sell players and give managers
+                        the ability to submit teams to create an automated system environment as part of the automation the
+                        league table updates after a match is played to give up to date</p>
+                </div>
             </div>
         </div>
     </section>
 
-	
-	
-	    <!-- login Section -->
+
+
+    <!-- login Section -->
     <section id="login" class="content-section text-center">
         <div class="login-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Login Page</h2>
-					<img src="img/login.png" alt="homePage" style="width:716px;height:455;">
-                    <p>A user will input there unique login name and password here. The system will then encrypt the password with sha-256 encryption algorithm and our own personal salt value then it tests both the login name and encrypted password against those stored in the database.</p>
-					</div>
+                    <img src="img/login.png" alt="homePage" style="width:716px;height:455;">
+                    <p>
+                        A user will input there unique login name and password here. The system will then encrypt the password with sha-256 encryption
+                        algorithm and our own personal salt value then it tests both the login name and encrypted password
+                        against those stored in the database.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-	
-	<!-- register Section -->
+
+    <!-- register Section -->
     <section id="register" class="content-section text-center">
         <div class="register-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Register Page</h2>
-					<img src="img/register.png" alt="homePage" style="width:716px;height:455;">
-                    <p>On this page a new user will enter their name, unique login name and password. From here the system encrypts the password using a sha-256 encryption and add our salt value to the password before encryption.</p>
-					</div>
+                    <img src="img/register.png" alt="homePage" style="width:716px;height:455;">
+                    <p>On this page a new user will enter their name, unique login name and password. From here the system encrypts
+                        the password using a sha-256 encryption and add our salt value to the password before encryption.</p>
+                </div>
             </div>
         </div>
     </section>
-	
-	<!-- fixture Section -->
+
+    <!-- fixture Section -->
     <section id="fixture" class="content-section text-center">
         <div class="fixture-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Fixture Page</h2>
-					<img src="img/fixture.png" alt="homePage" style="width:716px;height:455;">
-                    <p>On this page a manager or admin user can view there fixtures for the season. They can see the games played as they are displayed in a light blue colour and the results of the matches are shown also.</p>
-					</div>
+                    <img src="img/fixture.png" alt="homePage" style="width:716px;height:455;">
+                    <p>On this page a manager or admin user can view there fixtures for the season. They can see the games played
+                        as they are displayed in a light blue colour and the results of the matches are shown also.</p>
+                </div>
             </div>
         </div>
     </section>
-	
-	<!-- squad Section -->
+
+    <!-- squad Section -->
     <section id="squad" class="content-section text-center">
         <div class="squad-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Squad Page</h2>
-					<img src="img/squad.png" alt="homePage" style="width:716px;height:455;">
-                    <p>Here a manager views there team and selects which positon to play a player. Which player to train or sell. A manager can also change their teams name from here.</p>
-					</div>
+                    <img src="img/squad.png" alt="homePage" style="width:716px;height:455;">
+                    <p>Here a manager views there team and selects which positon to play a player. Which player to train or
+                        sell. A manager can also change their teams name from here.</p>
+                </div>
             </div>
         </div>
     </section>
-	
-	<!-- league Section -->
+
+    <!-- league Section -->
     <section id="league" class="content-section text-center">
         <div class="league-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>League Page</h2>
-					<img src="img/league.png" alt="homePage" style="width:716px;height:455;">
-                    <p>On this page a user whether it be an admin or manager can view where they stand in the league or other team’s position. This league table updates automatically after each match is played and an admin can force an update if needed.</p>
-					</div>
+                    <img src="img/league.png" alt="homePage" style="width:716px;height:455;">
+                    <p>On this page a user whether it be an admin or manager can view where they stand in the league or other
+                        team’s position. This league table updates automatically after each match is played and an admin
+                        can force an update if needed.</p>
+                </div>
             </div>
         </div>
     </section>
-	
-	
+
+
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Us</h2>
-           
+
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Eddy Ekofo</span></a>
                     </li>
                     <li>
-                        <a href="#" class="btn btn-default btn-lg">  <span class="network-name">Helena Hoang</span></a>
+                        <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Helena Hoang</span></a>
                     </li>
                 </ul>
             </div>
@@ -214,7 +248,7 @@
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	
+
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
 
